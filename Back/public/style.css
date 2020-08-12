@@ -1,0 +1,159 @@
+html {
+  scroll-behavior: smooth;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(32, 32, 56, 1) 50%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}
+.titulo{
+  font-family: 'Damion', cursive;
+  color: white
+}
+.chico{
+  font-family: 'Damion', cursive;
+  display: flex;
+  align-items: flex-end;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+
+  color: white;
+  font-size: 50px;
+  font-style: italic;
+  justify-content: center;
+}
+
+.Carrito{
+ margin-top: 15%;
+ display: flex;
+ justify-content: center;
+}
+
+.img {
+  position: absolute;
+  margin-top: 0;
+  margin-left: 0;
+}
+
+.loginContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+
+#loginGroup {
+  background-color: cornflowerblue;
+  width: 100%;
+  height: 100%;
+}
+
+.textInput {
+  margin-bottom: 15px;
+}
+
+.buttonInput {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.contenedorRegister {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.productoIndividual {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product {
+  border: 1px solid burlywood;
+}
+.cart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#carousel {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(32, 32, 56, 1) 50%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}
+
+.itemsCarousel {
+  display: flex;
+  margin: 0 auto;
+}
+
+.ADDContainer {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.categoriesContainer {
+  display: flex;
+  background-color: white;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.productContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.productSelf {
+  max-width: 50%;
+  margin-left: 10px;
+}
+.reviewSelf {
+  max-width: 50%;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+.reviewItem {
+  border-bottom: 1px solid #ccc;
+  border-radius: 16px;
+}
+
+.MuiGrid-container {
+  justify-content: "center";
+}
+
+.MuiGridList-root {
+  justify-content: "center";
+}
+
+.contenedorOrdenes {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
